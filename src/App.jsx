@@ -1,7 +1,7 @@
 import React from 'react';
-import TestRunner from './components/TestRunner';
-import AIPanel from './components/AIPanel';
-import LinksPanel from './components/LinksPanel';
+import TestRunner from './components/TestRunner.jsx';
+import AIPanel from './components/AIPanel.jsx';
+import LinksPanel from './components/LinksPanel.jsx';
 
 export default function App() {
   return (
