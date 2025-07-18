@@ -2,6 +2,10 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { PlayIcon } from '@heroicons/react/24/solid';
 
+// NOTE: This component triggers GitHub Actions via API.
+// For security, never expose your GitHub token in a public repo or static hosting (like GitHub Pages).
+// For public deployments, consider using a backend proxy or GitHub Apps for secure authentication.
+
 export default function TestRunner() {
   const [status, setStatus] = useState('');
 
